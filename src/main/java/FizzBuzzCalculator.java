@@ -1,14 +1,14 @@
-import com.fizzbuzz.divisor.Divisor;
 import com.fizzbuzz.divisor.IDivisible;
 import com.fizzbuzz.model.Pair;
 
 import java.util.List;
 
+import static com.fizzbuzz.divisor.Divisor.*;
 import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.toList;
 
 public class FizzBuzzCalculator {
-    private static List<IDivisible> divisors = asList(Divisor.FIZZ_BUZZ, Divisor.FIZZ, Divisor.BUZZ);
+    private static List<IDivisible> divisors = asList(FIZZ_BUZZ, FIZZ, BUZZ);
 
     public List<String> calculate(List<Integer> numbers) {
         return numbers
