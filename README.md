@@ -1,4 +1,4 @@
-#Fizz-Buzz:
+# Fizz-Buzz:
 #### When number is divisible by 3, print “fizz”
 #### When number is divisible by 5, print “buzz”
 #### When number is divisible by 3 and 5, print “fizzbuzz”
